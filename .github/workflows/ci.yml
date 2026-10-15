@@ -36,5 +36,8 @@ jobs:
       - name: Regenerate results
         run: uv run python scripts/generate_results.py
 
+      - name: Regenerate results on the real replicate pools
+        run: uv run python scripts/analyze_real.py
+
       - name: Fail on results drift
         run: git diff --exit-code results/

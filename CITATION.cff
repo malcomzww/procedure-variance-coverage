@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "procedure-variance-coverage"
+type: software
+authors:
+  - family-names: "Mudhungwaza"
+    given-names: "Malcom"
+repository-code: "https://github.com/malcomzww/procedure-variance-coverage"
+license: MIT
+version: 0.1.0
+keywords:
+  - llm evaluation
+  - confidence intervals
+  - pseudoreplication
+  - statistical inference
+  - quantization
+  - fine-tuning
+preferred-citation:
+  type: article
+  title: "Pseudoreplication in LLM Evaluation and the Anti-Conservative Coverage of Eval-Set Confidence Intervals"
+  authors:
+    - family-names: "Mudhungwaza"
+      given-names: "Malcom"
+  year: 2026
+  notes: "arXiv identifier to be added after posting."

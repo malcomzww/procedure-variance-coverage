@@ -1,0 +1,20 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "date": "2026-10-15",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.13.5",
+  "torch": "2.11.0+cu128",
+  "seq_len": 512,
+  "lr": 2e-05,
+  "epochs": 1,
+  "n_train": 500,
+  "n_eval_pool": 2000,
+  "n_arc": 1000,
+  "pool_seed": 0,
+  "replicate_seed_base": 100000,
+  "arms": {
+    "naive": "loss masked, causal packed mask",
+    "block": "loss masked, block diagonal"
+  },
+  "valid_eval_mask_sum": 2000
+}
