@@ -11,8 +11,7 @@ each, both contrasts at Q4_K and Q2_K. `results/real-results.json` holds all 38 
 in `C:\maworks\papers\procedure-variance` is regenerated from it, compiles, and the arXiv package
 is built and verified. H1 holds for SFT completion loss (74% coverage) and, as the
 preregistration allowed, does not hold for quantization KL (91% to 96%); the coverage of every
-continuous pool follows the closed form in rho. The repo exists locally only and has not been
-created on GitHub.
+continuous pool follows the closed form in rho. The public GitHub repo exists and is current.
 
 ## In flight
 
