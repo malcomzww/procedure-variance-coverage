@@ -1,0 +1,19 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M",
+  "date": "2026-11-11",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "python": "3.13.5",
+  "torch": "2.11.0+cu128",
+  "window": 128,
+  "n_eval_windows": 500,
+  "n_arc": 500,
+  "n_cal_windows": 128,
+  "levels": "Q4_K,Q2_K",
+  "replicate_seed_base": 200000,
+  "eval_text": "wikitext-2-raw-v1 test",
+  "calibration_domains": {
+    "wiki": "wikitext-2 train",
+    "code": "MBPP text and code",
+    "chat": "Dolly instruction and response"
+  }
+}
